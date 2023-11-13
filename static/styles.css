@@ -60,6 +60,11 @@ html, body {
     text-decoration: none;
 }
 
+#sidebar a.active { /*When nav link is clicked*/
+    color: black;
+    text-decoration: none;
+}
+
 #nav-projects {
     color: #f1c40f;
 }
@@ -84,19 +89,38 @@ html, body {
 }
 
 #sidebar #nav-projects:hover {
-    text-decoration-color: #f1c40f; /* Different color for the underline */
+    text-decoration-color: #f1c40f;
+}
+#sidebar #nav-projects.active { /*When PROJECTS from navbar is clicked*/
+    background-color: #f1c40f;
+    text-decoration: none;
 }
 
 #sidebar #nav-about:hover {
-    text-decoration-color: #3498db; /* Different color for the underline */
+    text-decoration-color: #3498db;
+}
+
+#sidebar #nav-about.active { /*When PROJECTS from navbar is clicked*/
+    background-color: #3498db;
+    text-decoration: none;
 }
 
 #sidebar #nav-contact:hover {
     text-decoration-color: #9b59b6; /* Different color for the underline */
 }
 
+#sidebar #nav-contact.active { /*When PROJECTS from navbar is clicked*/
+    background-color: #9b59b6;
+    text-decoration: none;
+}
+
 #sidebar #nav-hireme:hover {
     text-decoration-color: #e74c3c; /* Different color for the underline */
+}
+
+#sidebar #nav-hireme.active { /*When PROJECTS from navbar is clicked*/
+    background-color: #e74c3c;
+    text-decoration: none;
 }
 
 #main-content {
