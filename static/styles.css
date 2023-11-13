@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* To ensure no scrolling or spillover */
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    flex-basis: 200px; /* fixed width for the sidebar */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    bottom: 50px; /* Height of the footer */
+    width: 200px; /* Width of the sidebar */
+    border: 1px solid red; /* for visibility */
+}
+
+#main-content {
+    flex-grow: 1; /* fill the remaining space */
+    margin-left: 200px; /* Width of the sidebar */
+    margin-bottom: 50px; /* Height of the footer */
+    border: 1px solid red; /* for visibility */
+}
+
+#footer {
+    position: fixed; /* Fixed position for the footer */
+    height: 50px; /* fixed height for the footer */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    border: 1px solid red; /* for visibility */
+}
