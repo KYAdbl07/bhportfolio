@@ -99,7 +99,6 @@ html, body {
 #sidebar #nav-about:hover {
     text-decoration-color: #3498db;
 }
-
 #sidebar #nav-about.active { /*When PROJECTS from navbar is clicked*/
     background-color: #3498db;
     text-decoration: none;
@@ -108,7 +107,6 @@ html, body {
 #sidebar #nav-contact:hover {
     text-decoration-color: #9b59b6; /* Different color for the underline */
 }
-
 #sidebar #nav-contact.active { /*When PROJECTS from navbar is clicked*/
     background-color: #9b59b6;
     text-decoration: none;
@@ -117,7 +115,6 @@ html, body {
 #sidebar #nav-hireme:hover {
     text-decoration-color: #e74c3c; /* Different color for the underline */
 }
-
 #sidebar #nav-hireme.active { /*When PROJECTS from navbar is clicked*/
     background-color: #e74c3c;
     text-decoration: none;
@@ -148,7 +145,7 @@ html, body {
 }
 
 #content-container {
-    border: 3px solid black; /* For visibility */
+    border: 3px solid black;
     border-radius: 1%;
     position: relative;
     z-index: 1;
