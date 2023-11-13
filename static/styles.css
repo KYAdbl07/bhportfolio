@@ -75,6 +75,30 @@ html, body {
 #nav-hireme {
     color: #e74c3c;
 }
+
+#sidebar a:hover {
+    color: black; /* Hover state color */
+    text-decoration: underline; /* Underline on hover */
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+#sidebar #nav-projects:hover {
+    text-decoration-color: #f1c40f; /* Different color for the underline */
+}
+
+#sidebar #nav-about:hover {
+    text-decoration-color: #3498db; /* Different color for the underline */
+}
+
+#sidebar #nav-contact:hover {
+    text-decoration-color: #9b59b6; /* Different color for the underline */
+}
+
+#sidebar #nav-hireme:hover {
+    text-decoration-color: #e74c3c; /* Different color for the underline */
+}
+
 #main-content {
     flex-grow: 1;
     margin-left: 200px;
