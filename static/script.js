@@ -7,3 +7,4 @@ function doingIt() {
 };
 
 doIt_btn.addEventListener('click', doingIt);
+// will get rid of the stuff above, but for some reason.... not yet
