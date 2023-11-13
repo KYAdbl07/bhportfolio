@@ -1,10 +1,10 @@
-let doIt_btn = document.getElementById('doIt')
-let hackThePlanet = document.querySelector('h1')
+const mainHeading = document.querySelector('#main-content h1');
+const navLinks = document.querySelectorAll('#sidebar a');
 
-function doingIt() {
-    hackThePlanet.style.backgroundColor = 'white'
-    hackThePlanet.style.color = "black"
-};
+function updateH1Text(event) {
+    mainHeading.textContent = this.textContent;
+}
 
-doIt_btn.addEventListener('click', doingIt);
-// will get rid of the stuff above, but for some reason.... not yet
+navLinks.forEach(link => {
+    link.addEventListener('click', updateH1Text);
+});
